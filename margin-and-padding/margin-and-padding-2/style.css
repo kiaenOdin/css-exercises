@@ -39,15 +39,15 @@ button {
 }
 
 
-/* My solution.
+/* My solution
+
 .card {
-  padding: 8px;
+  border: 8px solid #fff;
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 8px;
   font-size: 16px;
+  margin: 0px;
   padding: 8px;
 }
 
@@ -64,14 +64,14 @@ button {
 
 button {
   display: block;
-  margin: 0 auto;
   padding: 8px 24px;
+  margin: auto;
 }
-
 */
 
 
-/* TOP solution.
+/* TOP Solution
+
 .card {
   padding: 8px;
 }
@@ -97,5 +97,5 @@ button {
   display: block;
   margin: 0 auto;
   padding: 8px 24px;
-} 
+}
 */
