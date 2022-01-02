@@ -1,4 +1,3 @@
-
 body {
   background: #eee;
   font-family: sans-serif;
@@ -38,3 +37,65 @@ button {
   padding: 8px 24px;
   margin: auto;
 }
+
+
+/* My solution.
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  padding: 16px 8px;
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
+
+*/
+
+
+/* TOP solution.
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+} 
+*/
