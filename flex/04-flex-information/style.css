@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,78 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+}
+
+.pic {
+  align-self: center;
+}
+
+.berry, .chili, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+/* My solution
+
+.title {
+  text-align: center;
+  margin: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.berry, .chili, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+*/
+
+
+
+/* TOP Solution
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+*/
